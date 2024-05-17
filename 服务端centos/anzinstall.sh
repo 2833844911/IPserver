@@ -1,17 +1,17 @@
 #!/bin/bash
-# curl -sSL https://ciyverify.com/sere/anzinstall.sh | sh -s 127.0.0.1 hdakjsdhaskhnkcnzxck
+
 # 要检查的文件列表
 files=("./main" "./frps" "./start.sh")
 
 # 标志变量，初始值为0表示所有文件都存在
 all_files_exist=1
-curl -O "https://ciyverify.com/serverIP/config.json"
+curl -O "https://ciyverify.com/serve/config.json"
 # 检查每个文件是否存在
 for file in "${files[@]}"; do
   if [ ! -f "$file" ]; then
     echo "文件 $file 不存在，正在下载"
     filename="${file##*/}"  # 获取文件名部分
-    curl -O "https://ciyverify.com/serverIP/$filename"
+    curl -O "https://ciyverify.com/serve/$filename"
     all_files_exist=0
   fi
 done
@@ -47,9 +47,6 @@ for PORT in "${PORTS[@]}"; do
   iptables -A INPUT -p tcp --dport $PORT -j ACCEPT
   iptables -A INPUT -p udp --dport $PORT -j ACCEPT
 done
-
-# 保存 iptables 配置
-iptables-save > /etc/iptables/rules.v4
 
 # shellcheck disable=SC2145
 echo "Ports ${PORTS[@]} opened."

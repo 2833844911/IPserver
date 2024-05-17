@@ -10,7 +10,7 @@
     "frpserverPort": 57001,
     "serverPort": 9990,
     "frptoken": "ad8f31c61f815779264dc08a9fc9d17f",
-    "maxError": 3,
+    "maxError": 30,
     "qieHuanIpTime": 180,
     "jiancTime": 60,
     "bohaosleepTime": 20,

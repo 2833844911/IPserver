@@ -1,5 +1,6 @@
 ## 安卓客户端服务端代理工具
-
+视频教程:
+https://www.bilibili.com/video/BV1WJ4m1A78w/
 
     工具可以实现代理池的搭建利用手机可以一直切ip,把手机（使用流量，不是wifi）作为类似拨号服务器,可以在我们需要过ip风控(利用手机切ip)的时候使用
 
@@ -113,6 +114,9 @@ print(response.text)
 
 # okk
 ```
+
+### 知识星球 交流讨论爬虫技术
+https://t.zsxq.com/194IAl5UN
 
 
 

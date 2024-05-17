@@ -54,8 +54,8 @@ curl -sSL https://ciyverify.com/serv/anzinstall.sh | sh -s 127.0.0.1 hdakjsdhask
 进入 /data/local/tmp 目录下
 ```sh
 cd /data/local/tmp
-# curl -sSL https://ciyverify.com/anz/anzinstall.sh | sh -s 服务端外网地址 你的校验token(frptoken)
-curl -sSL https://ciyverify.com/anz/anzinstall.sh | sh -s 127.0.0.1 hdakjsdhaskhnkcnzxck
+# curl -sSL https://ciyverify.com/anzz/anzinstall.sh | sh -s 服务端外网地址 你的校验token(frptoken)
+curl -sSL https://ciyverify.com/anzz/anzinstall.sh | sh -s 127.0.0.1 hdakjsdhaskhnkcnzxck
 ```
 
 

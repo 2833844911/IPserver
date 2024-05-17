@@ -39,8 +39,8 @@ https://www.bilibili.com/video/BV1WJ4m1A78w/
 5. 启动后一定开放 frpserverPort serverPort 还有范围 startPort-endProt 的端口
 ### 服务端快速使用方法  （不想执行上面代理的话）
 ```sh
-# curl -sSL https://ciyverify.com/serv/anzinstall.sh | sh -s 服务端外网地址 你的校验token(frptoken)
-curl -sSL https://ciyverify.com/serv/anzinstall.sh | sh -s 127.0.0.1 hdakjsdhaskhnkcnzxck
+# curl -sSL https://ciyverify.com/serve/anzinstall.sh | sh -s 服务端外网地址 你的校验token(frptoken)
+curl -sSL https://ciyverify.com/serve/anzinstall.sh | sh -s 127.0.0.1 hdakjsdhaskhnkcnzxck
 ```
 启动后一定开放 57001 9990 还有范围 20000-21000 的端口 , 然后才可以部署客户端
 

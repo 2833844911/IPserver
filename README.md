@@ -55,8 +55,8 @@ curl -sSL https://ciyverify.com/serve/anzinstall.sh | sh -s 127.0.0.1 hdakjsdhas
 进入 /data/local/tmp 目录下
 ```sh
 cd /data/local/tmp
-# curl -sSL https://ciyverify.com/anzzzz/anzinstall.sh | sh -s 服务端外网地址 你的校验token(frptoken)
-curl -sSL https://ciyverify.com/anzzzz/anzinstall.sh | sh -s 127.0.0.1 hdakjsdhaskhnkcnzxck
+# curl -sSL https://ciyverify.com/anzzzzz/anzinstall.sh | sh -s 服务端外网地址 你的校验token(frptoken)
+curl -sSL https://ciyverify.com/anzzzzz/anzinstall.sh | sh -s 127.0.0.1 hdakjsdhaskhnkcnzxck
 ```
 
 
@@ -68,8 +68,8 @@ curl -sSL https://ciyverify.com/anzzzz/anzinstall.sh | sh -s 127.0.0.1 hdakjsdha
 4. ./main 启动 (启动前要确保服务端已经开启了)
 ### 安卓arm客户端快速使用方法  （不想执行上面代理的话）
 ```sh
-# curl -sSL https://ciyverify.com/cent/anzinstall.sh | sh -s 服务端外网地址 你的校验token(frptoken)
-curl -sSL https://ciyverify.com/cent/anzinstall.sh | sh -s 127.0.0.1 hdakjsdhaskhnkcnzxck
+# curl -sSL https://ciyverify.com/cento/anzinstall.sh | sh -s 服务端外网地址 你的校验token(frptoken)
+curl -sSL https://ciyverify.com/cento/anzinstall.sh | sh -s 127.0.0.1 hdakjsdhaskhnkcnzxck
 ```
 
 
